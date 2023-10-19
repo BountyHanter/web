@@ -1,0 +1,52 @@
+.rectangle_first {
+    height: 100px;
+    width: 100%;
+    background-color: #AABAC9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.rectangle_first p {
+    margin: 0;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle_second {
+    height: 925px;
+    width: 270px;
+    background-color: #DADEE2;
+    margin: 0;
+    padding-top: 30px;
+    /*внутренний отступ*/
+    padding-right: 20px;
+    /* для отступа справа белой рамки*/
+}
+
+.rectangle_second p {
+    margin: 0;
+    color: #324352;
+    font-size: 23px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 15px;
+}
+
+.text-block {
+    margin: 0;
+    color: #324352;
+    font-size: 23px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 15px;
+    background-color: #E3E8EC;
+}
+
+.center {
+    text-align: center;
+}
