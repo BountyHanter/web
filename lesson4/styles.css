@@ -1,0 +1,188 @@
+.rectangle_first {
+    height: 100px;
+    width: 100%;
+    background-color: #AABAC9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*padding-inline: 20px;*/
+    position: fixed;
+    z-index: 2;
+
+}
+
+.rectangle_first p {
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.line {
+    border-top: 1px solid #AABAC9;
+    /* Толщина, стиль и цвет линии */
+    width: 15%;
+    /* Ширина линии (можете настроить) */
+    margin: 10px 0;
+    /* Отступы линии (можете настроить) */
+    position: absolute;
+}
+
+.rectangle_first .Login {
+    background-color: rgba(62, 85, 106, 0.49);
+    padding-inline: 15px;
+    border-radius: 8px;
+    margin: 30px;
+}
+
+.rectangle_first .Login p {
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Nato Sans", sans-serif;
+    font-weight: lighter;
+}
+
+.rectangle_second {
+    height: 925px;
+    width: 270px;
+    background-color: #DADEE2;
+    margin: 0;
+    padding-top: 30px;
+    /*внутренний отступ*/
+    padding-right: 20px;
+    /* для отступа справа белой рамки*/
+    position: fixed;
+    overflow-y: auto;
+    z-index: 1;
+    top: 8%;
+}
+
+.rectangle_second p {
+    margin: 0;
+    color: #324352;
+    font-size: 23px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 15px;
+}
+
+.text-block {
+    margin: 0;
+    color: #324352;
+    font-size: 23px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 15px;
+    background-color: #E3E8EC;
+}
+
+.wrapper {
+    display: flex;
+    padding-left: 15%;
+    padding-top: 6%;
+}
+
+.container {
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.center {
+    margin: 0;
+    color: #324352;
+    font-size: 36px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+
+}
+
+.rectangle-containter {
+    display: flex;
+    padding-inline: 10%;
+    text-align: center;
+    margin-top: 7%;
+    font-weight: lighter;
+}
+
+.rectangle_in_container_first {
+    width: 30%;
+    background-color: #E3E8EC;
+    padding: 10px;
+}
+
+.rectangle_in_container_second {
+    width: 70%;
+    background: rgba(227, 232, 236, 0.50);
+    padding: 10px;
+}
+
+.rectangle_in_container_first p,
+.rectangle_in_container_second p {
+    margin: 0;
+    font-size: 24px;
+    font-family: "Nato Sans", sans-serif;
+}
+
+.rectangle-containter2 {
+    display: flex;
+    padding-inline: 10%;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.rectangle_in_container_first1 {
+    width: 30%;
+    padding: 10px;
+}
+
+.rectangle_in_container_second1 {
+    width: 70%;
+    padding: 10px;
+}
+
+.rectangle_in_container_first1 p,
+.rectangle_in_container_second1 p {
+    margin: 0;
+    font-size: 24px;
+    font-family: "Nato Sans", sans-serif;
+}
+
+.rectangle_in_container_first1 p {
+    padding-top: 6%;
+}
+
+.rectangle_in_container_second1 {
+    text-align: left;
+}
+
+.line2 {
+    width: 30%;
+    border-top: 1px solid #E3E8EC;
+    padding: 1px;
+}
+
+.line3 {
+    width: 70%;
+    border-top: 1px solid #E3E8EC;
+    padding: 1px;
+}
+
+.hoverable-paragraph:hover {
+    background-color: #f0f0f0;
+    /* Изменение цвета фона при наведении */
+    color: #000;
+    /* Изменение цвета текста при наведении (по желанию) */
+    /* Другие стили, которые вы хотите применить при наведении */
+}

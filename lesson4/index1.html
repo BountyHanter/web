@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body topmargin="0" , leftmargin="0" , rightmargin="0">
+    <div class="rectangle_first">
+        <p><b> Lorem Ip...<b></p>
+        <div class="Login">
+            <p> Sign In/Login</p>
+        </div>
+    </div>
+    <div class="rectangle_second">
+        <a href="link1/lesson1.html">
+            <p class="hoverable-paragraph">Section name 1</p>
+        </a>
+        <a href="link2/index1.html">
+            <p class="hoverable-paragraph">Section name 2</p>
+        </a>
+        <a href="link3/index1.html">
+            <p class="hoverable-paragraph">Section name 3</p>
+        </a>
+        <p class="text-block">Section name 4</p>
+        <p>Section name 5</p>
+    </div>
+    <div class='wrapper'>
+        <div class="container">
+            <div class="content">
+                <h1 class="center">
+                    Section name 4
+                    <div class="line"></div>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class='wrapper'>
+        <div class="container">
+            <div class="content">
+                <div class="result">
+                    <form id="dateForm">
+                        <label for="year">Год:</label><br>
+                        <input type="number" id="year" name="year" min="1900" max="2100"><br>
+
+                        <label for="month">Месяц:</label><br>
+                        <input type="number" id="month" name="month" min="1" max="12"><br>
+
+                        <label for="day">День:</label><br>
+                        <input type="number" id="day" name="day" min="1" max="31"><br>
+
+                        <input type="button" value="Получить информацию" onclick="getData()">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script>
+        function getData() {
+            // Получаем информацию из формы
+            const year = document.getElementById('year').value;
+            const month = document.getElementById('month').value;
+            const day = document.getElementById('day').value;
+
+            // Создаём URL адрес
+            const url = `https://isdayoff.ru/api/getdata?year=${year}&month=${month}&day=${day}`;
+
+            // Перенаправляем пользователя по адресу
+            window.location.href = url;
+        }
+    </script>
+</body>
+
+</html>
