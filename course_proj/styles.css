@@ -42,8 +42,10 @@ html, body {
     box-sizing: border-box;
     border-radius: 25px; 
     text-align: center;
-    line-height: 50%;
     margin-right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .rectangle_text2 {
     width: 176px;
@@ -54,8 +56,10 @@ html, body {
     box-sizing: border-box;
     border-radius: 25px; 
     text-align: center;
-    line-height: 50%;
     margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rectangle_main_head{
@@ -130,16 +134,109 @@ html, body {
     margin-bottom: 10;
 }
 
-.manga, .internet, .kino {
+.puctures{
     width: 446px; 
     color: #653C00; 
     font-family: Merriweather, serif; 
-    font-size: 22px; 
+    font-size: 20px; 
     text-align: center;
 }
 
-.manga p, .internet p, .kino p{
+.puctures p{
+    margin-top: 1;
+}
+
+.posters, .all_movie {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+
+}
+
+.poster {
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+}
+
+.poster_name {
+    color: #653C00;
+    font-family: Merriweather, serif; 
+    font-size: 24px;
+    text-align: center;
+}
+
+.poster_discr {
+    color: #653C00;
+    font-family: Merriweather, serif; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.poster_name p, .poster_discr p {
     margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.open_more {
+    width: 224px;
+    height: 71px;
+    border:1px solid #FC9700;
+    background: #FC9700;
+    border-radius: 25px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+.internet_discr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 391px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.circle {
+    width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    border:1px solid #FC9700;
+    background: #FC9700;
+    text-align: center;
+    display: flex;
+    justify-content: center;  /* Выравнивание содержимого по горизонтали */
+    align-items: center;  /* Выравнивание содержимого по вертикали */
+}
+
+.discr_head p {
+    margin-bottom: 0;
+}
+
+.discr_body {
+    margin: auto;
+}
+
+.movie_name {
+    text-align: center;
+}
+
+.all_movie{
+    padding-bottom: 5%;
 }
 
 
